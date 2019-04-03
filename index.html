@@ -14,6 +14,20 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link href="css/styles.css" rel="stylesheet">
+
+      <!-- ... -->
+      <link rel="stylesheet" href="/path/to/bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+      <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"
+      crossorigin="anonymous"></script>
+      <script
+      src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      <script
+      src="node_modules/bootstrap/js/dist/collapse.js"></script>
 </head>
 
 <body>
@@ -147,34 +161,34 @@
                       <label for="datetime" class="col-md-2 col-form-label">Date and Time</label>
                               <div class='col-md-4'>
                                   <div class="form-group">
-                                      <div class='input-group date' id='datetimepicker3'>
+                                      <div class='input-group date' id='datepicker'>
                                           <input type='text' class="form-control" placeholder="Date"/>
-                                          <span class="input-group-addon">
-                                              <span class="far fa-clock"></span>
+                                          <span class="input-group-addon icon-holder">
+                                              <i class="fa fa-calendar"></i>
                                           </span>
                                       </div>
                                   </div>
                               </div>
                               <script type="text/javascript">
                                   $(function () {
-                                      $('#datetimepicker3').datetimepicker({
+                                      $('#datepicker').datetimepicker({
                                           format: 'LT'
                                       });
                                   });
                               </script>
                               <div class='col-md-4'>
                                   <div class="form-group">
-                                      <div class='input-group date' id='datetimepicker3'>
+                                      <div class='input-group date' id='timepicker'>
                                           <input type='text' class="form-control" placeholder="Time"/>
-                                          <span class="input-group-addon">
-                                              <span class="glyphicon glyphicon-time"></span>
+                                          <span class="input-group-addon icon-holder">
+                                              <i class="fa fa-clock-o" aria-hidden="true"></i>
                                           </span>
                                       </div>
                                   </div>
                               </div>
                               <script type="text/javascript">
                                   $(function () {
-                                      $('#datetimepicker3').datetimepicker({
+                                      $('#timepicker').datetimepicker({
                                           format: 'LT'
                                       });
                                   });
