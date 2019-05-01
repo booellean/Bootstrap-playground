@@ -102,7 +102,7 @@ input.smoke-option:checked {
   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
 }
 
-#carouselButton {
+#carousel-button {
   right:0px;
   position: absolute;
   bottom: 0px;
