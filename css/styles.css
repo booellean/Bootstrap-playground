@@ -1,109 +1,56 @@
-.row-header{
-    margin:0px auto;
-    padding:0px;
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
 }
-
 .row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
-
-.footer{
-    background-color: #D1C4E9;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px;
 }
-
 .jumbotron {
-  padding:70px 30px 70px 30px;
-  margin:0px auto;
-  background: #9575CD !important;
-  color:floralwhite;
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575CD;
+  color: floralwhite;
 }
-
-address{
-  font-size:80%;
-  margin:0px;
-  color:#0f0f0f;
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
 }
-
-body{
-  padding:50px 0px 0px 0px;
-  z-index:0;
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
-
 .navbar-dark {
   background-color: #512DA8;
 }
-
-.custom-radio:nth-of-type(1){
-  margin-left: 15px;
-}
-
-a.btn.btn-block {
-  font-weight: bold;
-}
-
-.icon-holder {
-  background-color: #f8f9fa;
-  width: 2.5em;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 0 .25em .25em 0;
-  border-top: #ced4da solid 1px;
-  border-right: #ced4da solid 1px;
-  border-bottom: #ced4da solid 1px;
-  transition: background-color .1s linear;
-}
-
-.icon-holder>i{
-  color: #ced4da;
-  display: inline-block;
-  font-size: 1.1em;
-  transition: color .1s linear;
-}
-
-.icon-holder:hover {
-  background-color: #ced4da;
-}
-
-.icon-holder:hover>i {
-  color: #fff;
-}
-
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
-
 .carousel {
-  background:#512DA8;
+  background: #512DA8;
 }
-
-.carousel-item {
-height: 300px;
+.carousel .carousel-item {
+  height: 300px;
 }
-
-.carousel-item img {
+.carousel .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
   min-height: 300px;
 }
-
-input.smoke-option:checked {
-  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-}
-
-#carousel-button {
-  right:0px;
+#carouselButton {
+  right: 0px;
   position: absolute;
   bottom: 0px;
 }
